@@ -1,0 +1,310 @@
+{
+  "logistic": {
+    "coverage_rate%": 67.65,
+    "labels": [
+      0,
+      2
+    ],
+    "precision%": [
+      63.86,
+      60.63
+    ],
+    "recall%": [
+      78.11,
+      97.47
+    ],
+    "f1%": [
+      70.27,
+      74.76
+    ],
+    "ext_macro_f1%": 72.51,
+    "ext_recall_macro%": 87.79,
+    "ext_precision_macro%": 62.24
+  },
+  "ridge": {
+    "coverage_rate%": 73.16,
+    "labels": [
+      0,
+      2
+    ],
+    "precision%": [
+      65.33,
+      58.41
+    ],
+    "recall%": [
+      78.09,
+      97.75
+    ],
+    "f1%": [
+      71.14,
+      73.12
+    ],
+    "ext_macro_f1%": 72.13,
+    "ext_recall_macro%": 87.92,
+    "ext_precision_macro%": 61.87
+  },
+  "rf": {
+    "coverage_rate%": 65.85,
+    "labels": [
+      0,
+      2
+    ],
+    "precision%": [
+      65.85,
+      66.09
+    ],
+    "recall%": [
+      80.77,
+      97.44
+    ],
+    "f1%": [
+      72.55,
+      78.76
+    ],
+    "ext_macro_f1%": 75.65,
+    "ext_recall_macro%": 89.1,
+    "ext_precision_macro%": 65.97
+  },
+  "et": {
+    "coverage_rate%": 62.14,
+    "labels": [
+      0,
+      2
+    ],
+    "precision%": [
+      66.04,
+      66.7
+    ],
+    "recall%": [
+      81.02,
+      96.84
+    ],
+    "f1%": [
+      72.77,
+      79.0
+    ],
+    "ext_macro_f1%": 75.88,
+    "ext_recall_macro%": 88.93,
+    "ext_precision_macro%": 66.37
+  },
+  "svc": {
+    "coverage_rate%": 64.43,
+    "labels": [
+      0,
+      2
+    ],
+    "precision%": [
+      67.92,
+      66.27
+    ],
+    "recall%": [
+      78.95,
+      97.75
+    ],
+    "f1%": [
+      73.02,
+      78.99
+    ],
+    "ext_macro_f1%": 76.0,
+    "ext_recall_macro%": 88.35,
+    "ext_precision_macro%": 67.1
+  },
+  "linSVC": {
+    "coverage_rate%": 72.67,
+    "labels": [
+      0,
+      2
+    ],
+    "precision%": [
+      66.07,
+      58.08
+    ],
+    "recall%": [
+      74.3,
+      97.92
+    ],
+    "f1%": [
+      69.94,
+      72.91
+    ],
+    "ext_macro_f1%": 71.43,
+    "ext_recall_macro%": 86.11,
+    "ext_precision_macro%": 62.08
+  },
+  "sgd": {
+    "coverage_rate%": 58.97,
+    "labels": [
+      0,
+      2
+    ],
+    "precision%": [
+      64.9,
+      56.93
+    ],
+    "recall%": [
+      71.43,
+      97.07
+    ],
+    "f1%": [
+      68.01,
+      71.77
+    ],
+    "ext_macro_f1%": 69.89,
+    "ext_recall_macro%": 84.25,
+    "ext_precision_macro%": 60.92
+  },
+  "knn": {
+    "coverage_rate%": 65.03,
+    "labels": [
+      0,
+      2
+    ],
+    "precision%": [
+      65.26,
+      64.5
+    ],
+    "recall%": [
+      81.22,
+      96.38
+    ],
+    "f1%": [
+      72.37,
+      77.28
+    ],
+    "ext_macro_f1%": 74.83,
+    "ext_recall_macro%": 88.8,
+    "ext_precision_macro%": 64.88
+  },
+  "gnb": {
+    "coverage_rate%": 99.84,
+    "labels": [
+      0,
+      2
+    ],
+    "precision%": [
+      50.8,
+      53.63
+    ],
+    "recall%": [
+      67.07,
+      93.26
+    ],
+    "f1%": [
+      57.81,
+      68.09
+    ],
+    "ext_macro_f1%": 62.95,
+    "ext_recall_macro%": 80.16,
+    "ext_precision_macro%": 52.21
+  },
+  "lgb": {
+    "coverage_rate%": 63.99,
+    "labels": [
+      0,
+      2
+    ],
+    "precision%": [
+      64.65,
+      67.17
+    ],
+    "recall%": [
+      85.65,
+      96.01
+    ],
+    "f1%": [
+      73.68,
+      79.04
+    ],
+    "ext_macro_f1%": 76.36,
+    "ext_recall_macro%": 90.83,
+    "ext_precision_macro%": 65.91
+  },
+  "xgb": {
+    "coverage_rate%": 62.3,
+    "labels": [
+      0,
+      2
+    ],
+    "precision%": [
+      66.67,
+      65.7
+    ],
+    "recall%": [
+      83.93,
+      96.91
+    ],
+    "f1%": [
+      74.31,
+      78.31
+    ],
+    "ext_macro_f1%": 76.31,
+    "ext_recall_macro%": 90.42,
+    "ext_precision_macro%": 66.18
+  },
+  "cat": {
+    "coverage_rate%": 64.87,
+    "labels": [
+      0,
+      2
+    ],
+    "precision%": [
+      66.89,
+      66.85
+    ],
+    "recall%": [
+      83.05,
+      97.08
+    ],
+    "f1%": [
+      74.1,
+      79.18
+    ],
+    "ext_macro_f1%": 76.64,
+    "ext_recall_macro%": 90.07,
+    "ext_precision_macro%": 66.87
+  },
+  "mlp": {
+    "coverage_rate%": 63.12,
+    "labels": [
+      0,
+      2
+    ],
+    "precision%": [
+      66.54,
+      64.55
+    ],
+    "recall%": [
+      80.47,
+      97.15
+    ],
+    "f1%": [
+      72.84,
+      77.56
+    ],
+    "ext_macro_f1%": 75.2,
+    "ext_recall_macro%": 88.81,
+    "ext_precision_macro%": 65.54
+  },
+  "ext3": {
+    "coverage_rate%": 58.37,
+    "labels": [
+      0,
+      2
+    ],
+    "precision%": [
+      71.12,
+      69.33
+    ],
+    "recall%": [
+      87.3,
+      98.31
+    ],
+    "f1%": [
+      78.38,
+      81.32
+    ],
+    "ext_macro_f1%": 79.85,
+    "ext_recall_macro%": 92.8,
+    "ext_precision_macro%": 70.23
+  }
+}
